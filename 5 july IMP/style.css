@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    border: 2px solid rgb(59, 59, 85);
+   padding: 20px;
+   width: 20%;
+   margin: 200px auto 200px auto;
+   /* DISPLAY */
+   /* DISPLAY: NONE  jaga bhi chli jayegi*/
+   /* VISIBLITY: HIDDEN jaga rahegi content jayega*/
+   /* BOX SHADOW GENERATOR  WEBSITE FOR BOX DESIGNING */
+  
+}
+p:hover{
+ background-color: rgb(206, 19, 19);
+
+}
+/* practice htmlcss project  from youtube */

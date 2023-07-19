@@ -1,0 +1,10 @@
+*{
+    background-color: rgb(197, 194, 194);
+}
+
+.go{
+  position: fixed;
+  right: 19px;
+  bottom: 20px;
+  
+}

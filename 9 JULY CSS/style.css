@@ -1,0 +1,37 @@
+/* * {
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+#apple {
+    padding-right: 600px;
+}
+#home {
+    padding-right: 50px;
+}
+#services {
+    padding-right: 50px;
+}
+#contactus {
+    padding-right: 50px;
+}
+
+.elements{
+    padding-right: 50px;
+} */
+
+/* *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+.navbar-div{
+     background-color: aqua;
+
+} */
+
+*{
+    width: 10px;
+}
