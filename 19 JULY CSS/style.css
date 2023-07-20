@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar{
+    background-color: lightgrey;
+    padding: 7px 5px;
+    width: 100%;
+    position: fixed;
+}
+ul{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: auto;
+    font-size: 14px;
+    
+}
+
+.firstbg{
+    background-image: url("./assests/hero_iphone14pro_spring__9xo85pm6sbmm_medium_2x.jpg");
+    width: 100%;
+    height: 500px;
+       
+    background-size: contain;
+    background-position: center;
+    text-align: center;
+    color: white;
+    /* position: relative; */
+    padding-top: 70px;
+    
+}
+.firstbg p{
+    font-size: 20px;
+}
+.firstbg-links{
+    margin: 10px;
+}
+
+.firstbg-links a {
+    text-decoration: none;
+    padding: 20px;
+    font-size: 17px;
+    color: #2997FF;
+}
+.secondbg{
+    background-image: url("./assests/2nd\ bg.jpg");
+    width: 100%;
+    height: 470px;    
+    background-size: contain;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding-top: 70px;
+    color: black;
+    
+}
+.secondbg p{
+    font-size: 20px;
+}
+.secondbg-links{
+    margin: 10px;
+}
+
+.secondbg-links a {
+    text-decoration: none;
+    padding: 20px;
+    font-size: 17px;
+    color: #2997FF;
+}
+.thirdbg{
+    background-image: url("./assests/3rd\ bg.jpg");
+    width: 100%;
+    height: 470px;    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    padding-top: 250px;
+    color: black;
+    /* position: relative;
+    top: 0; */
+}
+.thirdbg-thirdpara{
+    /* position: absolute;
+    bottom: 56px;
+    right: 139px; */
+    /* padding: 20px; */
+    color: white;
+    
+}
+.thirdbg-thirdpara  h2{
+   padding-bottom: 20px;
+}
+.thirdbg p{
+    font-size: 20px;
+   
+    /* padding: 20px; */
+}
+.thirdbg-links{
+    margin: 10px;
+    
+}
+
+
+.thirdbg-links a {
+    text-decoration: none;
+    padding: 20px;
+    font-size: 17px;
+   color: white;
+   
+}
+
