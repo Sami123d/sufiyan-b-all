@@ -10,6 +10,8 @@
     padding: 7px 5px;
     width: 100%;
     position: fixed;
+   
+   
 }
 ul{
     display: flex;
@@ -18,14 +20,21 @@ ul{
     list-style-type: none;
     margin: auto;
     font-size: 14px;
-    
-}
+    backdrop-filter: blur(20px);
 
+}
+ul li a{
+color: black;
+text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
 .firstbg{
-    background-image: url("./assests/hero_iphone14pro_spring__9xo85pm6sbmm_medium_2x.jpg");
+    background-image: url("./assests/1bg.jpg");
     width: 100%;
     height: 500px;
-       
+
     background-size: contain;
     background-position: center;
     text-align: center;
@@ -33,6 +42,7 @@ ul{
     /* position: relative; */
     padding-top: 70px;
     
+
 }
 .firstbg p{
     font-size: 20px;
@@ -57,7 +67,7 @@ ul{
     color: white;
     padding-top: 70px;
     color: black;
-    
+
 }
 .secondbg p{
     font-size: 20px;
@@ -92,19 +102,19 @@ ul{
     right: 139px; */
     /* padding: 20px; */
     color: white;
-    
+
 }
 .thirdbg-thirdpara  h2{
    padding-bottom: 20px;
 }
 .thirdbg p{
     font-size: 20px;
-   
+
     /* padding: 20px; */
 }
 .thirdbg-links{
     margin: 10px;
-    
+
 }
 
 
@@ -113,6 +123,148 @@ ul{
     padding: 20px;
     font-size: 17px;
    color: white;
-   
+
+}
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.box1{
+    width: 49%;
+    height: 440px;
+    background-color: red;
+    background-image: url("./assests/1stcard-main.jpg ");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    color: black;
+    padding-top: 30px;
+}
+ .firstbox-link a{
+    color: #2997FF;
+    text-decoration: none;
+
+}
+.box1 *{
+    padding: 3px;
+
+}
+
+.box2{
+    width: 49%;
+    height: 440px;
+    background-image: url("./assests/2ndcard-main.jpg ");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    color: black;
+    padding-top: 310px;
+    
+}
+.box2 *{
+  padding: 4px;
+}
+.box2  a{
+    color: #2997FF;
+    text-decoration: none;
+  
+}
+.box3{
+    width: 49%;
+    height: 440px;
+    background-image: url("./assests/3rdcard-main.jpg ");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.box3 *{
+  padding: 4px;
+  color: white;
+}
+.box3 p{
+    color: rgba(247, 15, 15, 0.897);
+}
+.box3  a{
+    color: #2997FF;
+    text-decoration: none;
+  
+}
+.box4{
+    width: 49%;
+    height: 440px;
+    background-image: url("./assests/2ndcard-main.jpg ");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 300px;
+    
+}
+.box4 *{
+  padding: 4px;
+  /* color: white; */
+}
+.box4 p{
+    /* color: rgba(247, 15, 15, 0.897); */
+    font-size: 20px;
+}
+.box4  a{
+    color: #2997FF;
+    text-decoration: none;
+  
+}
+
+.box5{
+    width: 49%;
+    height: 440px;
+    background-image: url("./assests/5thcard-main.jpg ");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.box5 *{
+  padding: 4px;
+  color: white;
+}
+.box5 p{
+    /* color: rgba(247, 15, 15, 0.897); */
+    font-size: 20px;
+}
+.box5  a{
+    color: #2997FF;
+    text-decoration: none;
+    font-size: 15px;
+  
+}
+.box6{
+    width: 49%;
+    height: 440px;
+    background-image: url("./assests/6thcard-main.jpg ");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.box6 *{
+  padding: 4px;
+ 
+}
+.box6 p{
+    /* color: rgba(247, 15, 15, 0.897); */
+    font-size: 20px;
+}
+.box6  a{
+    color: #2997FF;
+    text-decoration: none;
+    font-size: 15px;
+  
 }
 
