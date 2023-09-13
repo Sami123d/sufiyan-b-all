@@ -45,14 +45,14 @@
 //xample x = 32243;
 //Expected Output : 34223
 
-    let num = 32243;
-    let x = num.toString(); //string
+//     let num = 32243;
+//     let x = num.toString(); //string
 
-let z =Object.assign([], x)  //array 
+// let z =Object.assign([], x)  //array 
 
-let reversee = z.reverse()
+// let reversee = z.reverse()
 
-let reversenum = reversee.toString()
+// let reversenum = reversee.toString()
 
 
     
