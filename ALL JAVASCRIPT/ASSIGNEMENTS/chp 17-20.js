@@ -54,7 +54,12 @@
 //   }
 
 
+//JS PIC NO. 51 
 
+function fullName(firstName, LastName) {
+    let result =console.log( `${firstName} ${LastName}`.toUpperCase())
+}
+fullName("sami", "ahmed")
 
 
 
